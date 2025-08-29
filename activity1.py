@@ -15,7 +15,7 @@ class Smartphone(Device):
         self.camera = camera
     
     def take_photo(self):
-        return f"{self.brand} {self.model} takes a photo with {self.camera} camera "
+        return f"{self.brand} {self.model} takes a photo with {self.camera} camera"
     
     def device_info(self):   #polymorphism (method overriding)
         return f"Smartphone: {self.brand} {self.model}, {self.storage}GB storage, {self.camera}MP camera"
